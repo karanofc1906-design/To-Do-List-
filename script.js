@@ -3,6 +3,7 @@ const input = document.getElementById("todo-input");
 const addbtn = document.getElementById("add-btn");
 const list = document.getElementById("todo-list");
 
+
 // Load saved todos from localStorage
 const saved = localStorage.getItem("todos");
 const todos = saved ? JSON.parse(saved) : [];
